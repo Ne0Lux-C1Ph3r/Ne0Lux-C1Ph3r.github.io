@@ -1,0 +1,74 @@
+h1{
+    color: rgb(103, 32, 14);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px
+}
+
+h1 a, a:visited, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2{
+    color: rgb(129, 31, 6);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px
+}
+
+
+#News{
+    display: inline-block;
+    padding: 0px 25px;
+    background-size: cover;
+    background-image: url("");
+    height: 30%;
+    border: solid;
+    border-radius: 25px;
+    border: 3px inset rgb(182, 219, 252);
+    width: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+
+}
+
+
+.SpeciesPanel{
+    margin-right: 20px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    background-color: yellow
+    border: 1px;
+    width: 23%;
+    color: grey;
+}
+
+.row{
+    margin-top: 54px;
+}
+
+#newsRow{
+  padding: 2px 25px;
+  text-align: center;
+}
+
+
+body {
+  padding-top: 5rem;
+}
+
+#navbar a {
+  color: rgb(129, 31, 6);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#navbar {
+  margin-left: 25%;
+}
