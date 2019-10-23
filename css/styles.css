@@ -1,0 +1,192 @@
+/* 
+
+By Ne0Lux-C1Ph3r 
+http://Ne0Lux-C1Ph3r.github.io
+
+*/
+
+/* Page */
+
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body {
+	background-image: url("../images/body.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, Sans-Serif;
+	width: 1230px;
+	height: auto;
+	margin: 0 auto;
+}
+
+ul {
+	
+}
+
+li {
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	text-decoration: none;
+	color: white;
+}
+
+/* Header */
+
+header {
+	margin: 0 auto;
+	padding: 2rem 10rem;
+}
+
+#name {
+	font-family: Georgia, "Times New Roman", Sans-Serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 3rem;
+	float: left;
+	color: #fff;
+}
+
+#social-network {
+	float: right;
+}
+
+#social-network li {
+	display: inline;
+}
+
+/* Menu */
+
+nav {
+	float: right;
+	padding: 0 10rem;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 1.5rem;
+	height: 1rem;
+	line-height: 1rem;
+}
+
+nav ul li a {
+	color: #b1b4bb;
+	font-size: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav ul li a::after {
+	content: url("../images/arrow-down.gif");
+}
+
+nav ul li a.active, nav ul li a:hover {
+	text-decoration: none;
+	color: #00d2ff;
+}
+
+nav ul li a.link, nav ul li a:visited {
+	text-decoration: none; 
+	font-weight: normal;
+	color:#00d2ff;
+}
+
+/* aside */
+
+#categories {
+	border: 2px solid;
+	border-color: #12110f;
+	border-radius: 1rem;
+	opacity: 0.5;
+	margin: 0 10rem;
+	width: 350px;
+	height: 180px;
+	background-color: #24221f;
+}
+
+#categories p {
+	color: yellow;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+#categories ul li a::after {
+	content: url("../images/arrow-right.gif");
+}
+	
+
+/* Content */
+
+#stripViewer {
+	border: 2px solid;
+	border-color: #12110f;
+	border-radius: 1rem;
+	opacity: 0.5;
+	margin: 0 10rem;
+	padding: 0;
+	width: 535px;
+	height: 180px;
+	background-color: #24221f;
+	float: right;
+	clear: both; 
+}
+
+#stripViewer p {
+	text-align: left;
+	margin: 0.5rem 0.5rem 0 0.5rem;
+	padding: 0;
+	max-width: 533px;
+	max-height: 178px;
+}
+
+h2 {
+	text-decoration: none;
+	opacity: 1.5;
+	margin: 0.5rem 0.5rem 0 0.5rem;
+	padding: 0;
+	color: yellow;
+}
+
+
+#content {
+	border: 2px solid;
+	border-color: #12110f;
+	border-radius: 1rem;
+	opacity: 0.5;
+	margin: 0 10rem;
+	width: 910px;
+	height: auto;
+	background-color: #24221f;
+}
+
+
+
+/* Footer */
+
+footer {
+	text-align: center;
+}
+
