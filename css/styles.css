@@ -1,5 +1,5 @@
 h1{
-    color: rgb(103, 32, 14);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px
@@ -11,7 +11,7 @@ h1 a, a:visited, a:hover {
 }
 
 h2{
-    color: rgb(129, 31, 6);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px
@@ -26,7 +26,7 @@ h2{
     height: 30%;
     border: solid;
     border-radius: 25px;
-    border: 3px inset rgb(182, 219, 252);
+    border: 3px inset rgb(0, 0, 0);
     width: 80%;
     margin-top: 100px;
     margin-left: auto;
@@ -48,7 +48,7 @@ body {
 }
 
 #navbar a {
-  color: rgb(129, 31, 6);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
