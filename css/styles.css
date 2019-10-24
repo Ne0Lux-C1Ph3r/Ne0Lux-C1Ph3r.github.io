@@ -1,13 +1,14 @@
 /* 
 
 By Ne0Lux-C1Ph3r 
-https://ne0lux-c1ph3r.github.io
+http://ne0lux-c1ph3r.github.io
 
 */
 
 /* Page */
 
-*{
+
+* {
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -18,44 +19,54 @@ https://ne0lux-c1ph3r.github.io
     outline: 0;
 }
 
-.clear{
+
+.clear {
 	clear: both;
 }
+
 
 body {
 	background-image: url("../images/body.jpg");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	font-family: Arial, Helvetica, Sans-Serif;
-	width: 1230px;
+	/*width: 1230px;*/
+	width: 77.5rem;
 	height: auto;
 	margin: 0 auto;
 }
+
 
 ul {
 	
 }
 
+
 li {
 	
 }
+
 
 a {
 	text-decoration: none;
 	color: white;
 }
 
-p{
+
+p {
 	text-decoration: none;
 	color: white;
 }
 
+
 /* Header */
+
 
 header {
 	margin: 0 auto;
-	padding: 2rem 10rem;
+	padding: 1.5rem 3.5rem;
 }
+
 
 #name {
 	font-family: Georgia, "Times New Roman", Sans-Serif;
@@ -66,24 +77,30 @@ header {
 	color: #fff;
 }
 
+
 #social-network {
 	float: right;
 }
+
 
 #social-network li {
 	display: inline;
 }
 
+
 /* Menu */
+
 
 nav {
 	float: right;
-	padding: 0 10rem;
+	padding: 0 3.5rem;
 }
+
 
 nav ul {
 	list-style: none;
 }
+
 
 nav ul li {
 	float: left;
@@ -92,46 +109,59 @@ nav ul li {
 	line-height: 1rem;
 }
 
+
 nav ul li a {
-	color: #b1b4bb;
-	font-size: 1rem;
-	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Sans-Serif;
 	text-decoration: none;
+	color: white;
+	font-style: italic;
+	font-size: 1.35rem;
+	font-weight: bold;
 }
+
 
 nav ul li a::after {
 	content: url("../images/arrow-down.gif");
 }
+
 
 nav ul li a.active, nav ul li a:hover {
 	text-decoration: none;
 	color: #00d2ff;
 }
 
+
+/*
 nav ul li a.link, nav ul li a:visited {
 	text-decoration: none; 
 	font-weight: normal;
 	color:#00d2ff;
 }
+*/
+
 
 /* aside */
 
+
 #categories {
-	border: 2px solid;
+	border: 0.125rem solid;
 	border-color: #12110f;
 	border-radius: 1rem;
 	opacity: 0.5;
-	margin: 0 10rem;
-	width: 350px;
-	height: 180px;
+	margin: 0 3.5rem;
+	width: 31.875rem;
+	height: 12.5rem;
 	background-color: #24221f;
 }
 
+
 #categories p {
+	font-family: Georgia, "Times New Roman", Sans-Serif;
 	color: yellow;
 	font-size: 1rem;
 	text-decoration: none;
 }
+
 
 #categories ul li a::after {
 	content: url("../images/arrow-right.gif");
@@ -141,26 +171,29 @@ nav ul li a.link, nav ul li a:visited {
 /* Content */
 
 #stripViewer {
-	border: 2px solid;
+	border: 0.125rem solid;
 	border-color: #12110f;
 	border-radius: 1rem;
 	opacity: 0.5;
-	margin: 0 10rem;
+	margin: 0 3.5rem;
 	padding: 0;
-	width: 535px;
-	height: 180px;
+	width: 38.125rem;
+	height: 12.5rem;
 	background-color: #24221f;
 	float: right;
 	clear: both; 
 }
 
+
 #stripViewer p {
+	font-family: Georgia, "Times New Roman", Sans-Serif;
 	text-align: left;
 	margin: 0.5rem 0.5rem 0 0.5rem;
 	padding: 0;
-	max-width: 533px;
-	max-height: 178px;
+	max-width: 33.3125rem;
+	max-height: 11.125rem;
 }
+
 
 h2 {
 	text-decoration: none;
@@ -172,19 +205,20 @@ h2 {
 
 
 #content {
-	border: 2px solid;
+	font-family: Georgia, "Times New Roman", Sans-Serif;
+	border: 0.125rem solid;
 	border-color: #12110f;
 	border-radius: 1rem;
 	opacity: 0.5;
-	margin: 0 10rem;
-	width: 910px;
+	margin: 0 3.5rem;
+	width: 70.65rem;
 	height: auto;
 	background-color: #24221f;
 }
 
 
-
 /* Footer */
+
 
 footer {
 	text-align: center;
